@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Singh8248 
-linuxautomations
-/
-labautomation
-Public
-Code
-Issues
-Pull requests
-Discussions
-Actions
-Projects
-Security
-Insights
-labautomation/tools/jenkins/install.sh
-@r-devops
-r-devops ss
-Latest commit f651de4 on Jul 22
- History
- 2 contributors
-@r-devops@linuxautomations
-38 lines (30 sloc)  995 Bytes
-
 #!/bin/bash 
 
 if [ $(id -u) -ne 0 ]; then 
